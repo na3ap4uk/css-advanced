@@ -1,0 +1,167 @@
+body {
+	font-family: OpenSans, sans-serif;
+	padding: 20px;
+}
+.wrapper{
+	margin: auto;
+	width:793.700787px;
+}
+/*section*/
+.mainelement{
+	display: flex;
+}
+.textelement{
+	flex: 1;
+}
+.nomargintop{
+	margin-top: 0;
+}
+.standartsection{
+	display: block;
+}
+.img{
+	width: 332.258268px;
+	height: 224.012598px;
+	float: right;
+}
+/* underline element */
+.underline{
+	padding-left: 0px;
+	display: inline-block;
+}
+.underline p {
+	font-size: 13px;
+}
+.exclamation{
+	background-color: #0083bd;
+    color: white;
+	font-size: 19px;
+	margin: -30px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+/* customers */
+.customers{
+	width: 790px;
+	height: 170px;
+}
+.center{
+	display: flex;
+	justify-content: space-around;
+}
+.center img{
+	width: 140px;
+	height: 40px;
+}
+.middle{
+	display: flex;
+	justify-content: flex-end;
+}
+.right{
+	display: flex;
+	justify-content: flex-end;
+	width:50%;
+}
+.left{
+	display: flex;
+	justify-content: flex-start;
+}
+.left img{
+	width: 150px;
+	height: 150px;
+}
+.left div{
+	padding-left: 100px;
+	padding-top: 20px;
+	font-size: 24px;
+}
+.right img{
+	height: 30px;
+}
+
+/* last section */
+
+.goodplace{
+	margin-left: 100px;
+}
+.social{
+	padding-top: 30px;
+}
+.social div{
+	padding: 20px 0;
+}
+.socialelement img{
+	padding-right: 20px;
+	width: 60px;
+	height: 45px;
+} 
+.socialelement{
+	display: flex;
+	justify-content: flex-start;
+}
+/*lists*/
+ul {
+  list-style-type: none;
+  padding-left: 16px;
+}
+li {
+  text-indent: -0.5em;
+}
+li:before {
+  content: "\2012";
+  display: inline-block;
+  width: 0.5em;
+}
+/*table*/
+.table{
+	width: 790px;
+	font-size: 12px;
+}
+.table th {
+	border-right: 1px solid gray;
+	background-color: #d5e2f0;
+	padding: 15px;
+	width: 25%;
+}
+.table td {
+	border-right: 1px solid gray;
+	padding: 10px;
+	height: 80px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.table td:last-child {
+ border: none;
+}
+.table th:last-child {
+ border: none;
+}
+/* footer */
+
+.column {
+    width: 25%;
+    float: left;
+	font-size: 10px;
+}
+.column:nth-child(3){
+	padding-top: 33px;
+}
+.column:last-child {
+	padding-top: 124px;
+}
+.textright{
+	text-align: right;
+	font-size: 12px;
+}
+/* helpers */
+.clearfix {
+    overflow: auto;
+}
+.textsmall{
+	font-size: 12px;
+}
+.blue{
+	color: #0083bd;
+}
